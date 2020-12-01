@@ -1,0 +1,28 @@
+.places__image {
+  padding: 48px 32px 0 0;
+  grid-area: image;
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .places__image {
+    padding: 48px 25px 0 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .places__image {
+    padding: 48px 21px 0 0;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px){
+  .places__image {
+    padding: 32px 0 0;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 424px) {
+  .places__image {
+    padding: 32px 0 0;
+  }
+}

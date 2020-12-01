@@ -1,0 +1,9 @@
+.cover__background {
+  margin: 0;
+  padding: 0;
+  grid-area: 1 / 1 / 1 / 1;
+  z-index: 1;
+  width: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+}
