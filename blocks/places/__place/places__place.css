@@ -8,6 +8,7 @@
   "title website"
   "image text";
   width: 100%;
+  box-sizing: border-box;
 }
 /*@media screen and (min-width: 1024px) and (max-width: 1279px){
   .places__place {

@@ -10,4 +10,5 @@
   justify-self: center;
   z-index: 3;
   text-decoration: none;
+  box-sizing: border-box;
 }

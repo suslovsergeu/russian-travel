@@ -8,6 +8,7 @@
   line-height: 1.05;
   text-align: center;
   color: #FFFFFF;
+  box-sizing: border-box;
 }
 /*@media screen and (min-width: 1024px) and (max-width: 1279px){
   {

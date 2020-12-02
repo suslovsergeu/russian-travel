@@ -3,6 +3,7 @@
   padding: 0;
   padding-left: 7px;
   grid-area: text;
+  box-sizing: border-box;
 }
 .places__text :first-of-type {
   margin-top: 0;

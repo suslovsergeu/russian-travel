@@ -8,6 +8,7 @@
   line-height: 122%;
   text-decoration-line: underline;
   color: #FFFFFF;
+  box-sizing: border-box;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .places__link {

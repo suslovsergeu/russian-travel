@@ -9,6 +9,7 @@
   line-height: 1.17;
   color: #FFFFFF;
   text-decoration: none;
+  box-sizing: border-box;
 }
 /*@media screen and (min-width: 1024px) and (max-width: 1279px){
   {

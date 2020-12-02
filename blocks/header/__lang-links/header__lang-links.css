@@ -3,6 +3,7 @@
   padding: 0;
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
 }
 .header__lang-links :nth-last-child(1) {
   margin: 0;
