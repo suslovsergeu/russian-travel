@@ -5,25 +5,24 @@
   max-width: 690px;
   box-sizing: border-box;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (max-width: 1279px){
   .intro {
     margin: 92px 0 0;
     margin-left: 48px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (max-width: 1023px){
   .intro {
     margin: 90px 0 0;
     margin-left: 24px;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .intro {
     margin: 88px 0 0;
-    margin-left: 24px;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
   .intro {
     margin: 66px 16px 0;
   }

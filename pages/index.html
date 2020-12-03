@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="../vendor/normalize.css">
-    <link rel="stylesheet" href="../styles/fonts.css">
     <link rel="stylesheet" href="../styles/index.css">
   </head>
 
-  <body>
-  <main class="page">
+  <body class="common">
     <header class="header">
       <img class="header__logo" src="../images/header-logo.svg" alt="карта">
-      <div class="header__lang-links">
-        <a class="link header__lang-link" href="#" target="_blank">Ru</a>
-        <a class="link header__lang-link" href="#" target="_blank">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li class="header__lang-link"><a class="link header__lang-link header__lang-link_Ru" href="#" target="_blank">Ru</a></li>
+        <li class="header__lang-link"><a class="link header__lang-link header__lang-link_En" href="#" target="_blank">En</a></li>
+      </ul>
     </header>
 
+    <main class="page">
     <div class="lead-intro">
       <section class="lead">
-        <h1 class="lead__title">Путешествия<br/>по России</h1>
-        <p class="lead__subtitle">Настоящая страна не в выпусках<br>новостей, а здесь.</p>
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="../images/lead-polka-map.jpg" alt="карта">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -35,11 +33,11 @@
           которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
           достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов 11</li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-item">Природных заповедников 105</li>
-          <li class="intro__list-item">Аэропортов 241</li>
+          <li class="intro__list-item">Часовых поясов <span class="intro__list-item_number">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item_number">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item_number">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list-item_number">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list-item_number">241</span></li>
         </ul>
       </section>
     </div>
@@ -136,25 +134,25 @@
       </div>
     </section>
 
-    <section class="cover">
-      <a class="link cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"></a>
-      <img class="cover__background" src="../images/cover-trains.jpg" alt="фото">
+    <section class="cover"><a class="link cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+      <div class="cover__background"></div>
+      <div class="cover__overlay"></div>
       <div class="cover__text">
-        <h2 class="cover__title">До Байкала<br/>«на собаках»</h2>
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-      </div>
+      </div></a>
     </section>
+    </main>
 
     <footer class="footer">
-      <nav class="footer__links">
-        <a class="link footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="link footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="link footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="link footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="link footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <nav><ul class="footer__links">
+        <li class="footer__link"><a class="link footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li class="footer__link"><a class="link footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="footer__link"><a class="link footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li class="footer__link"><a class="link footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li class="footer__link"><a class="link footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
       </nav>
       <p class="footer__copyright">&copy; 2020. Сергей Суслов</p>
     </footer>
-  </main>
   </body>
 </html>

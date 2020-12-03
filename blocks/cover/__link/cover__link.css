@@ -1,0 +1,9 @@
+.cover__link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  max-width: 1280px;
+  text-decoration: none;
+}

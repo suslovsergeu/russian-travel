@@ -1,0 +1,5 @@
+.common {
+  background-color: #2a2c2f;
+  -webkit-font-smoothing: antialised;
+  text-rendering: optimizeLegibility;
+}

@@ -2,7 +2,7 @@
   margin: 32px 0 0;
   padding: 0;
   align-self: center;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -13,23 +13,15 @@
   max-width: 360px;
   box-sizing: border-box;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (max-width: 1279px){
   .cover__subtitle {
     padding-bottom: 5px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
-  .cover__subtitle {
-    padding-bottom: 5px;
-  }
-}
-/*@media screen and (min-width: 425px) and (max-width: 767px){
-  .cover__subtitle {
-  }
-}*/
-@media screen and (min-width: 0px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
   .cover__subtitle {
     font-size: 14px;
     margin: 16px 0 0;
+    max-width: 288px;
   }
 }

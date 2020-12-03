@@ -4,10 +4,8 @@
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+  list-style: none;
 }
 .header__lang-links :nth-last-child(1) {
   margin: 0;
-}
-.header__lang-links :active {
-  text-decoration: underline;
 }

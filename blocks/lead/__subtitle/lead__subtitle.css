@@ -1,35 +1,31 @@
 .lead__subtitle {
   margin: 32px auto 0;
   padding: 0;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
+  max-width: 640px;
   line-height: 1.2;
   text-align: center;
   color: #FFFFFF;
   box-sizing: border-box;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (max-width: 1279px){
   .lead__subtitle{
-      margin: 32px auto 0;
-      padding-right: 5px;
+    padding-right: 5px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
-  .lead__subtitle {
-      margin: 33px auto 0;
-  }
-}
-@media screen and (min-width: 425px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .lead__subtitle {
     font-size: calc(0.04*100vw);
   }
 }
-@media screen and (min-width: 0px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
   .lead__subtitle {
     margin: 19px auto 0;
     font-size: 16px;
     padding-right: 2px;
+    max-width: 288px;
   }
 }

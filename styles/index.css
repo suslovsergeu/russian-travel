@@ -1,3 +1,7 @@
+@import url(../vendor/normalize.css);
+@import url(fonts.css);
+@import url(../blocks/common/common.css);
+
 /***Блок Page***/
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
@@ -7,6 +11,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_Ru/header__lang-link_Ru.css);
 
 /***Блок Lead***/
 @import url(../blocks/lead-intro/lead-intro.css);
@@ -22,6 +27,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item/_number/intro__list-item_number.css);
 
 /***Блок photo-grid***/
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -40,6 +46,7 @@
 
 /***Блок cover***/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__text/cover__text.css);

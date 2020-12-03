@@ -5,23 +5,9 @@
   grid-template-columns: repeat(5,minmax(min-content,max-content));
   column-gap: 18px;
   box-sizing: border-box;
+  list-style: none;
 }
-/*@media screen and (min-width: 1024px) and (max-width: 1279px){
-  .footer__links {
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px){
-  .footer__links {
-  }
-}*/
-@media screen and (min-width: 425px) and (max-width: 767px){
-  .footer__links {
-    grid-template-columns: repeat(1,minmax(min-content,max-content));
-    grid-template-rows: repeat(5,minmax(min-content,max-content));
-    row-gap: 32px;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 424px) {
+@media screen and (max-width: 767px){
   .footer__links {
     grid-template-columns: repeat(1,minmax(min-content,max-content));
     grid-template-rows: repeat(5,minmax(min-content,max-content));

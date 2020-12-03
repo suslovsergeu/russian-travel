@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   grid-area: title;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -11,26 +11,20 @@
   letter-spacing: 0.5px;
   box-sizing: border-box;
 }
-/*@media screen and (min-width: 1024px) and (max-width: 1279px){
-  .places__title {
-  }
-}*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (max-width: 1023px){
   .places__title {
     font-size: 42px;
     padding-right: 25px;
   }
 }
-@media screen and (min-width: 425px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .places__title {
-    font-size: 42px;
     padding: 0 16px 0;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
   .places__title {
     font-size: 32px;
-    padding: 0 16px 0;
     letter-spacing: 0;
   }
 }
