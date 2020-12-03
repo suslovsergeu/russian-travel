@@ -10,4 +10,4 @@
   - Flex-box
   - Адаптивная верстка
 
-  https://suslovsergeu.github.io/russian-travel/index.html
+  https://suslovsergeu.github.io/russian-travel/pages/index.html
