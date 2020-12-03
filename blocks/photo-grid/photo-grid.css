@@ -19,7 +19,7 @@
     margin: 88px auto 0;
     padding: 0 24px 0;
     grid-template-columns: repeat(2,1fr);
-    gap: 15px;
+    gap: 16px;
   }
 }
 @media screen and (max-width: 767px){

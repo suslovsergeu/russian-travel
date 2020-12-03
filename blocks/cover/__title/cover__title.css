@@ -14,17 +14,8 @@
 }
 @media screen and (max-width: 767px){
   .cover__title {
+    font-size: calc(0.1*100vw);
+    width: calc(0.85*100vw);
     padding: 0 16px 0;
-  }
-}
-@media screen and (max-width: 767px){
-  .cover__title {
-    font-size: 40px;
-  }
-}
-@media screen and (max-width: 424px) {
-  .cover__title {
-    font-size: 32px;
-    max-width: 288px;
   }
 }

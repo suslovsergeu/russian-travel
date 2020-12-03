@@ -18,10 +18,10 @@
     padding-bottom: 5px;
   }
 }
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
-    font-size: 14px;
-    margin: 16px 0 0;
-    max-width: 288px;
+    font-size: calc(14/320*100vw);
+    margin: calc(0.05*100vw) 0 0;
+    width: calc(0.9*100vw);
   }
 }
